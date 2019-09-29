@@ -16,7 +16,7 @@ setup(name="swack-multimedia",
       python_requires=">=3.6",
       install_requires=["numpy>=1.16.0", "opencv-python>=4.0.0"],
       platforms="any",
-      url="https://github.com/casen45/swack-multimedia",
+      url="https://github.com/casen45/swack_multimedia",
       classifiers=[
               "Programming Language :: Python :: 3.6",
               "Programming Language :: Python :: 3.7",
