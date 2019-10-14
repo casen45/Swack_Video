@@ -1,7 +1,8 @@
 # Swack Multimedia
 
 ## Install
-```
+
+```shell
 pip install swack-multimedia
 ```
 

@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
 setup(name="swack-multimedia",
-      version="0.1.1",
+      version="0.1.2",
       keywords=["multimedia"],
       description="Multimedia files processing.",
       long_description=readme,
@@ -20,7 +20,6 @@ setup(name="swack-multimedia",
       classifiers=[
               "Programming Language :: Python :: 3.6",
               "Programming Language :: Python :: 3.7",
-              "Programming Language :: Python :: 3.8",
               ],
       zip_safe=False,
       )
