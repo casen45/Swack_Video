@@ -181,8 +181,7 @@ class VideoOverview:
                 if self.save_thumbs:  # 保存缩略图？
                     cv2.imwrite(name, img_tmp)
                 print("当前进度：%d/%d" % (num, self.thumbnails))
-                self.img_base[h:h + self.h_thumb,
-                w:w + self.w_thumb, :] = img_tmp
+                self.img_base[h:h + self.h_thumb, w:w + self.w_thumb, :] = img_tmp
 
     def _make_header_attr(self):
         print("\n>>>创建头部信息：")
